@@ -1,0 +1,21 @@
+# ROS 2 / colcon build outputs (covers all workspaces and nested packages)
+**/build/
+**/install/
+**/log/
+
+# Python cache and virtual environments
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# Editor/OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
